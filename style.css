@@ -1,0 +1,38 @@
+/* reset */
+html, body, div,
+      h1, h2, h3, h4, h5, h6, p,
+      a, article, canvas, footer, header, section {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+      }
+
+html{
+  background: rgb(30, 30, 30);
+}
+body{
+  display: grid;
+	grid-template-columns: 1fr 200px 200px 200px 1fr;
+}
+.one{
+  grid-column-start: 2;
+}
+.two{
+  grid-column-start: 3;
+}
+.three{
+  grid-column-start: 4;
+}
+a{
+  text-decoration: none;
+  font-family: 'Martel Sans', sans-serif;
+  font-size: 350px;
+  color: rgb(250,250,250);
+  line-height: .96em;
+}
+a:hover{
+  color: rgb(250,200,200);
+}
